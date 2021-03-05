@@ -1,0 +1,262 @@
+{
+  "version": "2.1.0", 
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json", 
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "CodeSonar", 
+          "fullName": "CodeSonar 6.0p0.20210204-x86_64-pc-linux", 
+          "version": "6.0p0", 
+          "semanticVersion": "6.0.0"
+        }
+      }, 
+      "invocations": [
+        {
+          "startTimeUtc": "2021-03-05T22:13:10.953535Z", 
+          "endTimeUtc": "2021-03-05T22:13:26.536025Z", 
+          "executionSuccessful": false, 
+          "machine": "riddle2", 
+          "account": "paul"
+        }
+      ], 
+      "originalUriBaseIds": {
+        "SRCROOT0": {
+          "uri": "file:////home/runner/work/sarif-analysis-test/sarif-analysis-test/"
+        }
+      }, 
+      "artifacts": [
+        {
+          "location": {
+            "uri": "one.c", 
+            "uriBaseId": "SRCROOT0"
+          }, 
+          "mimeType": "text/x-c", 
+          "hashes": {
+            "LOOKUP3-FILENAME+CONTENT": "34f5aaa3fdbc016b"
+          }
+        }
+      ], 
+      "results": [
+        {
+          "ruleId": "Division By Zero", 
+          "level": "error", 
+          "message": {
+            "text": "A value is divided by 0.The issue can occur if the highlighted code executes."
+          }, 
+          "locations": [
+            {
+              "id": 2, 
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": 0
+                }, 
+                "region": {
+                  "startLine": 6, 
+                  "startColumn": 9, 
+                  "endColumn": 12
+                }
+              }, 
+              "logicalLocations": [
+                {
+                  "name": "one"
+                }
+              ], 
+              "message": {
+                "text": "A value is divided by 0.The issue can occur if the highlighted code executes."
+              }
+            }
+          ], 
+          "fingerprints": {
+            "codesonarCluster": "a0ef875ecaeac191", 
+            "codesonarFingerprint": "eadfae6164e2c52f"
+          }, 
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "id": 1, 
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          }, 
+                          "region": {
+                            "startLine": 4, 
+                            "startColumn": 1, 
+                            "endColumn": 12
+                          }
+                        }, 
+                        "logicalLocations": [
+                          {
+                            "name": "one"
+                          }
+                        ], 
+                        "message": {
+                          "text": "Taking true branch.  *p evaluates to true."
+                        }
+                      }, 
+                      "kinds": [
+                        "branch true"
+                      ], 
+                      "nestingLevel": 1
+                    }, 
+                    {
+                      "location": {
+                        "id": 2, 
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          }, 
+                          "region": {
+                            "startLine": 6, 
+                            "startColumn": 9, 
+                            "endColumn": 12
+                          }
+                        }, 
+                        "logicalLocations": [
+                          {
+                            "name": "one"
+                          }
+                        ], 
+                        "message": {
+                          "text": "A value is divided by 0.The issue can occur if the highlighted code executes."
+                        }
+                      }, 
+                      "nestingLevel": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ], 
+          "rank": 66.23848342895508, 
+          "hostedViewerUri": "http://riddle2:9460/warninginstance/1356677.html"
+        }, 
+        {
+          "ruleId": "Missing Return Statement", 
+          "level": "error", 
+          "message": {
+            "text": "  - one() is missing a return statement here.  - This function should return a value of type int.The issue can occur if the highlighted code executes."
+          }, 
+          "locations": [
+            {
+              "id": 3, 
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": 0
+                }, 
+                "region": {
+                  "startLine": 8, 
+                  "startColumn": 1, 
+                  "endColumn": 2
+                }
+              }, 
+              "logicalLocations": [
+                {
+                  "name": "one"
+                }
+              ], 
+              "message": {
+                "text": "  - one() is missing a return statement here.  - This function should return a value of type int.The issue can occur if the highlighted code executes."
+              }
+            }
+          ], 
+          "fingerprints": {
+            "codesonarCluster": "f264972d3c1abceb", 
+            "codesonarFingerprint": "1297cb7f901fa3b9"
+          }, 
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "id": 1, 
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          }, 
+                          "region": {
+                            "startLine": 2, 
+                            "startColumn": 5, 
+                            "endColumn": 25
+                          }
+                        }, 
+                        "logicalLocations": [
+                          {
+                            "name": "one"
+                          }
+                        ], 
+                        "message": {
+                          "text": "one()'s return type is int."
+                        }
+                      }, 
+                      "nestingLevel": 1
+                    }, 
+                    {
+                      "location": {
+                        "id": 2, 
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          }, 
+                          "region": {
+                            "startLine": 4, 
+                            "startColumn": 1, 
+                            "endColumn": 12
+                          }
+                        }, 
+                        "logicalLocations": [
+                          {
+                            "name": "one"
+                          }
+                        ], 
+                        "message": {
+                          "text": "Skipping \"if\".  *p evaluates to false."
+                        }
+                      }, 
+                      "kinds": [
+                        "branch false"
+                      ], 
+                      "nestingLevel": 1
+                    }, 
+                    {
+                      "location": {
+                        "id": 3, 
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          }, 
+                          "region": {
+                            "startLine": 8, 
+                            "startColumn": 1, 
+                            "endColumn": 2
+                          }
+                        }, 
+                        "logicalLocations": [
+                          {
+                            "name": "one"
+                          }
+                        ], 
+                        "message": {
+                          "text": "  - one() is missing a return statement here.  - This function should return a value of type int.The issue can occur if the highlighted code executes."
+                        }
+                      }, 
+                      "nestingLevel": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ], 
+          "rank": 67.96012496948242, 
+          "hostedViewerUri": "http://riddle2:9460/warninginstance/1356678.html"
+        }
+      ]
+    }
+  ]
+}
