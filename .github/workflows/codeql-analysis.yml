@@ -51,10 +51,10 @@ jobs:
         gcc -c one.c
  
     - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v1
-        with:
-          # Path to SARIF file relative to the root of the repository
-          sarif_file: one.sarif
+      uses: github/codeql-action/upload-sarif@v1
+      with:
+        # Path to SARIF file relative to the root of the repository
+        sarif_file: one.sarif
 
 #    - name: Perform CodeQL Analysis
 #     uses: github/codeql-action/analyze@v1
