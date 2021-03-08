@@ -22,7 +22,7 @@
       ], 
       "originalUriBaseIds": {
         "SRCROOT0": {
-          "uri": "file:///home/runner/work/sarif-analysis-test/"
+          "uri": "file:///home/runner/work/sarif-analysis-test/sarif-analysis-test/"
         }
       }, 
       "artifacts": [
