@@ -28,8 +28,7 @@
       "artifacts": [
         {
           "location": {
-            "uri": "one.c", 
-            "uriBaseId": "SRCROOT0"
+            "uri": "one.c"
           }, 
           "mimeType": "text/x-c", 
           "hashes": {
