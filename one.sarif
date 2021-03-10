@@ -13,31 +13,31 @@
           "rules": [
               {
                   "id": "Basic Numerical Type Used",
-                  "shortDescription": { "text": "This is the short description"},
+                  "shortDescription": { "text": "Basic Numerical Type Used"},
                   "fullDescription": {"text": "This is the full description"},
                   "help": {"text": "This is the help text"}
               },
               {
                   "id": "Condition Is Not Boolean",
-                  "shortDescription": { "text": "This is the short description"},
+                  "shortDescription": { "text": "Condition Is Not Boolean"},
                   "fullDescription": {"text": "This is the full description"},
                   "help": {"text": "This is the help text"}
               },
               {
                 "id": "Pointed-to Type Could Be const",
-                "shortDescription": { "text": "This is the short description"},
+                "shortDescription": { "text": "Pointed-to Type Could Be const"},
                 "fullDescription": {"text": "This is the full description"},
                 "help": {"text": "This is the help text"}
               },
               {
                 "id": "Unused Parameter",
-                "shortDescription": { "text": "This is the short description"},
+                "shortDescription": { "text": "Unused Parameter"},
                 "fullDescription": {"text": "This is the full description"},
                 "help": {"text": "This is the help text"}
               },
               {
                 "id": "Missing External Declaration",
-                "shortDescription": { "text": "This is the short description"},
+                "shortDescription": { "text": "Missing External Declaration"},
                 "fullDescription": {"text": "This is the full description"},
                 "help": {"text": "This is the help text"}
               },
@@ -49,7 +49,7 @@
               },
               {
                 "id": "Missing Return Statement",
-                "shortDescription": { "text": "This is the short description"},
+                "shortDescription": { "text": "Missing Return Statement"},
                 "fullDescription": {"text": "This is the full description"},
                 "help": {"text": "This is the help text"}
               }
