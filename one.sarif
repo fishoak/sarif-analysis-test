@@ -43,7 +43,7 @@
               },
               {
                 "id": "Division By Zero",
-                "shortDescription": { "text": "This is the short description"},
+                "shortDescription": { "text": "Division By Zero"},
                 "fullDescription": {"text": "This is the full description"},
                 "help": {"text": "This is the help text"}
               },
