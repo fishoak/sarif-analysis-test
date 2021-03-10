@@ -6,17 +6,61 @@
       "tool": {
         "driver": {
           "name": "CodeSonar", 
-          "informationUri": "http://www.grammatech.com",
           "fullName": "CodeSonar 6.0p0.20210310-x86_64-pc-linux", 
           "version": "6.0p0", 
-          "semanticVersion": "6.0.0"
+          "semanticVersion": "6.0.0",
+          "informationUri": "http://www.grammatech.com/codesonar",
+          "rules": [
+              {
+                  "id": "Basic Numerical Type Used",
+                  "shortDescription": { "text": "This is the short description"},
+                  "fullDescription": {"text": "This is the full description"},
+                  "help": {"text": "This is the help text"}
+              },
+              {
+                  "id": "Condition Is Not Boolean",
+                  "shortDescription": { "text": "This is the short description"},
+                  "fullDescription": {"text": "This is the full description"},
+                  "help": {"text": "This is the help text"}
+              },
+              {
+                "id": "Pointed-to Type Could Be const",
+                "shortDescription": { "text": "This is the short description"},
+                "fullDescription": {"text": "This is the full description"},
+                "help": {"text": "This is the help text"}
+              },
+              {
+                "id": "Unused Parameter",
+                "shortDescription": { "text": "This is the short description"},
+                "fullDescription": {"text": "This is the full description"},
+                "help": {"text": "This is the help text"}
+              },
+              {
+                "id": "Missing External Declaration",
+                "shortDescription": { "text": "This is the short description"},
+                "fullDescription": {"text": "This is the full description"},
+                "help": {"text": "This is the help text"}
+              },
+              {
+                "id": "Division By Zero",
+                "shortDescription": { "text": "This is the short description"},
+                "fullDescription": {"text": "This is the full description"},
+                "help": {"text": "This is the help text"}
+              },
+              {
+                "id": "Missing Return Statement",
+                "shortDescription": { "text": "This is the short description"},
+                "fullDescription": {"text": "This is the full description"},
+                "help": {"text": "This is the help text"}
+              }
+        ]
         }
       }, 
       "invocations": [
         {
           "startTimeUtc": "2021-03-10T19:20:20.104504Z", 
           "endTimeUtc": "2021-03-10T19:20:36.195017Z", 
-          "executionSuccessful": true, 
+          "executionSuccessful": false, 
           "machine": "riddle2", 
           "account": "paul"
         }
