@@ -6,6 +6,7 @@
       "tool": {
         "driver": {
           "name": "CodeSonar", 
+          "informationUri": "http://www.grammatech.com",
           "fullName": "CodeSonar 6.0p0.20210310-x86_64-pc-linux", 
           "version": "6.0p0", 
           "semanticVersion": "6.0.0"
