@@ -14,8 +14,8 @@
               {
                   "id": "Basic Numerical Type Used",
                   "shortDescription": { "text": "Basic Numerical Type Used"},
-                  "fullDescription": {"text": "This is the full description"},
-                  "help": {"text": "This is the help text"}
+                  "fullDescription": {"text": "This is the full description. Link: http://www.grammatech.com"},
+                  "help": {"text": "This is the help text. Link: http://www.grammatech.com"}
               },
               {
                   "id": "Condition Is Not Boolean",
