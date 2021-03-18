@@ -111,6 +111,10 @@
             "codesonarCluster": "8ad83989ff0c7f88", 
             "codesonarFingerprint": "8ad83989ff0c7f88"
           }, 
+          "partialFingerprints": {
+            "codesonarCluster": "8ad83989ff0c7f88", 
+            "codesonarFingerprint": "8ad83989ff0c7f88"
+          }, 
           "relatedLocations": [
             {
               "id": 1, 
